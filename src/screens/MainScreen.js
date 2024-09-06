@@ -6,12 +6,12 @@ import SavedRecipeScreen from "./SavedRecipeScreen";
 import { Ionicons } from "@expo/vector-icons";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-const tab = createBottomTabNavigator();
+const Tab = createBottomTabNavigator();
 
 const MainScreen = () => {
     return (
-        <tab.Navigator>
-            <tab.Screen 
+        <Tab.Navigator>
+            <Tab.Screen 
                 name="RecipeListScreen" 
                 component={RecipeListScreen} 
                 options={{
@@ -25,7 +25,7 @@ const MainScreen = () => {
                         />
                     ),
             }}/>
-            <tab.Screen 
+            <Tab.Screen 
                 name="ScanRecipeScreen" 
                 component={ScanRecipeScreen} 
                 options={{
@@ -39,7 +39,7 @@ const MainScreen = () => {
                         />
                     ),
             }}/>
-            <tab.Screen 
+            <Tab.Screen 
                 name="SavedRecipeScreen" 
                 component={SavedRecipeScreen} 
                 options={{
@@ -53,7 +53,7 @@ const MainScreen = () => {
                         />
                     ),
                 }}/>
-        </tab.Navigator>
+        </Tab.Navigator>
     );
 };
 

@@ -5,7 +5,10 @@ import { View, Text, TouchableOpacity } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { useNavigation } from "@react-navigation/native";
-import colors from "./src/themes/colors";
+
+import RecipeListScreen from "./src/screens/RecipeListScreen";
+import ScanRecipeScreen from "./src/screens/ScanRecipeScreen";
+import SavedRecipeScreen from "./src/screens/SavedRecipeScreen";
 import MainScreen from "./src/screens/MainScreen";
 import RecipeDetailScreen from "./src/screens/RecipeDetailScreen";
 

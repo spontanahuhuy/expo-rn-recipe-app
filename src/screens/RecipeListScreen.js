@@ -1,6 +1,6 @@
 import { useNavigation } from "@react-navigation/native";
 import react from "react";
-import { View, Text, StyleSheet, TouchableOpacity, FlatList } from "react-native-web"
+import { View, Text, StyleSheet, TouchableOpacity, FlatList } from "react-native"
 import RecipeData from '../contants/RecipeData.json';
 import ItemRecipe from '../components/ItemRecipe.js';
 
